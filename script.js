@@ -1,38 +1,34 @@
-// Add a Featured category section at the top of the catalog
-window.OPENSHIFT_CONSTANTS.CATALOG_CATEGORIES.unshift({
-  // Required.  Must be unique
+// Add a Featured category as the first category tab.
+window.OPENSHIFT_CONSTANTS.SERVICE_CATALOG_CATEGORIES.unshift({
+  // Required. Must be unique.
   id: "featured",
   // Required
   label: "Featured",
-  // Optional.  If specified, each item in the category will utilize this icon
-  // as a default
-  iconClassDefault: "fa fa-code",
-  items: [
+  subCategories: [
     {
-      // Required.  Must be unique
+      // Required. Must be unique.
       id: "go",
-      // Required
+      // Required.
       label: "Go",
-      // Optional.  If specified, defines a unique icon for this item
-      iconClass: "font-icon icon-go-gopher",
-      // Optional.  If specified, enables matching other tag values to this
-      // category item
-      categoryAliases: [
+      // Optional. If specified, defines a unique icon for this item.
+      icon: "icon-go-gopher",
+      // Required. Items matching any tag will appear in this subcategory.
+      tags: [
+        "go",
         "golang"
-      ],
-      // Optional.  If specified, will display below the item label
-      description: "An open source programming language developed at Google in " +
-      "2007 by Robert Griesemer, Rob Pike, and Ken Thompson."
+      ]
     },
     {
-      // Required.  Must be unique
+      // Required. Must be unique.
       id: "jenkins",
-      // Required
+      // Required.
       label: "Jenkins",
-      // Optional.  If specified, defines a unique icon for this item
-      iconClass: "font-icon icon-jenkins",
-      // Optional.  If specified, will display below the item label
-      description: "An open source continuous integration tool written in Java."
+      // Optional. If specified, defines a unique icon for this item.
+      icon: "icon-jenkins",
+      // Required. Items matching any tag will appear in this subcategory.
+      tags: [
+        "jenkins"
+      ]
     }
   ]
 });
