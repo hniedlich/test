@@ -19,5 +19,5 @@ window.OPENSHIFT_CONSTANTS.SERVICE_CATALOG_CATEGORIES.unshift({
       ],
       // Optional.  If specified, will display below the item label
       description: "Made by Hubert"
-    },
+    }
 });
