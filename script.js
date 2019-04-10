@@ -17,18 +17,6 @@ window.OPENSHIFT_CONSTANTS.SERVICE_CATALOG_CATEGORIES.unshift({
         "go",
         "golang"
       ]
-    },
-    {
-      // Required. Must be unique.
-      id: "jenkins",
-      // Required.
-      label: "Jenkins",
-      // Optional. If specified, defines a unique icon for this item.
-      icon: "icon-jenkins",
-      // Required. Items matching any tag will appear in this subcategory.
-      tags: [
-        "jenkins"
-      ]
     }
   ]
 });
