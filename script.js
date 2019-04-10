@@ -16,6 +16,18 @@ window.OPENSHIFT_CONSTANTS.SERVICE_CATALOG_CATEGORIES.unshift({
       tags: [
         "cms"
       ]
+    },
+    {
+      // Required. Must be unique.
+      id: "shop",
+      // Required.
+      label: "SHOP",
+      // Optional. If specified, defines a unique icon for this item.
+      // icon: "icon-jenkins",
+      // Required. Items matching any tag will appear in this subcategory.
+      tags: [
+        "shop"
+      ]
     }
   ]
 });
