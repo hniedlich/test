@@ -28,7 +28,7 @@ window.OPENSHIFT_CONSTANTS.SERVICE_CATALOG_CATEGORIES.unshift({
       tags: [
         "shop"
       ]
-    }
+    },
     {
       // Required. Must be unique.
       id: "survey",
