@@ -31,6 +31,18 @@ window.OPENSHIFT_CONSTANTS.SERVICE_CATALOG_CATEGORIES.unshift({
     },
     {
       // Required. Must be unique.
+      id: "cloud",
+      // Required.
+      label: "Cloud",
+      // Optional. If specified, defines a unique icon for this item.
+      // icon: "icon-jenkins",
+      // Required. Items matching any tag will appear in this subcategory.
+      tags: [
+        "cloud"
+      ]
+    },
+    {
+      // Required. Must be unique.
       id: "survey",
       // Required.
       label: "Survey",
